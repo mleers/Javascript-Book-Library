@@ -1,0 +1,106 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+html, body {
+	padding: 0;
+    margin: 0;
+    background-color: #eceef1;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header {
+	font-style: italic;
+	font-weight: lighter;
+}
+
+/*table */
+th {
+    background: #395870;
+    color: #fff;
+  }
+
+table {
+    border-collapse: collapse;
+  }
+  
+th {
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
+  }
+  
+
+#main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 1em 2em;
+}
+
+#library {
+	margin-top: 1em;
+	text-align: center;
+}
+
+#addbook {
+    background-color: #395870;
+    border: 1px solid gray;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: normal;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+
+}
+
+/* input */
+.new-book-form {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	padding: 5em 1em 1em;
+	background-color: rgba(0,0,0,0.5);
+	bottom: 0;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.pop-up-window {
+	background-color: #fefefe;
+	margin: 2em auto;
+	width: 60%;
+	padding: 1em;
+}
+
+.pop-up-window label {
+	display: inline-block;
+	padding: 0.5em 0;
+}
+
+input[type='text'], input[type='number'], input[type='submit'] {
+	display: block;
+	width: 100%;
+	padding: 4px;
+}
+
+.close {
+	position: absolute;
+	right: 21%;
+	top: 14%;
+    font-size: 30px;
+   
+}
+
+.close:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+
